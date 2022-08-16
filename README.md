@@ -31,8 +31,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://lisacodesnow.github.io/product_preview_card/)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-card-using-flexbox-Q1c_gi3dQ4]
+- Live Site URL: [https://lisacodesnow.github.io/product_preview_card/]
+
 
 ## My process
 
