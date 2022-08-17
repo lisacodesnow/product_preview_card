@@ -277,10 +277,7 @@ p{
 @media (min-width: 1280px){
 	
 	body{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		align-content: center;
+		display: grid;
 	}
 	
 	.container-wrapper{
@@ -296,6 +293,9 @@ p{
 	.desktop-product-image{
 		display: inline;
 		width: 50%;
+		object-fit: cover;
+		object-position: top center;
+			
 	}
 	
 	.perfume_info{
