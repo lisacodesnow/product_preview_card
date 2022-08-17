@@ -98,7 +98,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	height: 100vh;
 }
 
 .container-wrapper{
@@ -277,13 +277,19 @@ p{
 @media (min-width: 1280px){
 	
 	body{
-		display: grid;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+		
+		
 	}
 	
 	.container-wrapper{
-		display: flex;
-		flex-direction: row;
-		width: 50%;	
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		width: 50%;
+		overflow: hidden;
 	}
 	
 	.mobile-product-image{
@@ -292,9 +298,10 @@ p{
 	
 	.desktop-product-image{
 		display: inline;
-		width: 50%;
+		width: 100%;
 		object-fit: cover;
 		object-position: top center;
+		
 			
 	}
 	
