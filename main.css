@@ -103,7 +103,8 @@ body{
 
 .container-wrapper{
 	width: 90%;
-	margin: 25px 10px;	
+	margin: 25px 10px;
+	flex-grow: 0;
 }
 
 h1{ 
@@ -128,6 +129,10 @@ p{
 .perfume_info{
 	background-color: #F3F3F3;
 	padding: 10px 25px;
+	flex-grow: 0;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
 }
 
 .perfume_description h1{
