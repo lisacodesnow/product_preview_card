@@ -104,7 +104,9 @@ body{
 .container-wrapper{
 	width: 90%;
 	margin: 25px 10px;
-	flex-grow: 0;
+	max-width: 600px;
+	min-width: 100px;
+	
 }
 
 h1{ 
@@ -290,8 +292,7 @@ p{
 	
 	.container-wrapper{
 		display: flex;
-		flex-direction: row;
-		width: 50%;	
+		
 	}
 	
 	.mobile-product-image{
